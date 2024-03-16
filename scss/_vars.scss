@@ -1,0 +1,29 @@
+// Root Colors
+:root {
+  --col-black: #000000;
+  --col-white: #ffffff;
+  --col-grey: #8e8e93;
+  --col-red: #ff3b30;
+  --col-yellow: #ffcc00;
+  --col-green: #34c759;
+  --col-pr: #000;
+  --col-sc: #000;
+  --col-three: #000;
+  --col-four: #000;
+  --col-five: #000;
+  --col-text: #000;
+  --col-alt: #000;
+  --col-bg: #000;
+  --col-br: #000;
+}
+// Breakpoints
+$xxs: 374px;
+$sm: 424px;
+$mob: 576px;
+$tab: 767px;
+$lap: 1023px;
+$desk: 1440px;
+$big: 1600px;
+// Enter The design values 
+$container: 1320px;
+$gutter: 16px;
