@@ -1,4 +1,5 @@
 /* Reset Css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 *,
 *:before,
 *:after {
@@ -875,6 +876,12 @@ img {
 
 .nowrap {
   flex-wrap: nowrap;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fdr {
@@ -2688,403 +2695,503 @@ img {
 }
 
 .px-1 {
-  padding: 0 1px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 .px-2 {
-  padding: 0 2px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .px-3 {
-  padding: 0 3px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .px-4 {
-  padding: 0 4px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .px-5 {
-  padding: 0 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .px-6 {
-  padding: 0 6px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 .px-7 {
-  padding: 0 7px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 .px-8 {
-  padding: 0 8px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .px-9 {
-  padding: 0 9px;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 
 .px-10 {
-  padding: 0 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .px-11 {
-  padding: 0 11px;
+  padding-left: 11px;
+  padding-right: 11px;
 }
 
 .px-12 {
-  padding: 0 12px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .px-13 {
-  padding: 0 13px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 .px-14 {
-  padding: 0 14px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 
 .px-15 {
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .px-16 {
-  padding: 0 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .px-17 {
-  padding: 0 17px;
+  padding-left: 17px;
+  padding-right: 17px;
 }
 
 .px-18 {
-  padding: 0 18px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 .px-19 {
-  padding: 0 19px;
+  padding-left: 19px;
+  padding-right: 19px;
 }
 
 .px-20 {
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .px-21 {
-  padding: 0 21px;
+  padding-left: 21px;
+  padding-right: 21px;
 }
 
 .px-22 {
-  padding: 0 22px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .px-23 {
-  padding: 0 23px;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 
 .px-24 {
-  padding: 0 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .px-25 {
-  padding: 0 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .px-26 {
-  padding: 0 26px;
+  padding-left: 26px;
+  padding-right: 26px;
 }
 
 .px-27 {
-  padding: 0 27px;
+  padding-left: 27px;
+  padding-right: 27px;
 }
 
 .px-28 {
-  padding: 0 28px;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 
 .px-29 {
-  padding: 0 29px;
+  padding-left: 29px;
+  padding-right: 29px;
 }
 
 .px-30 {
-  padding: 0 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .px-31 {
-  padding: 0 31px;
+  padding-left: 31px;
+  padding-right: 31px;
 }
 
 .px-32 {
-  padding: 0 32px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .px-33 {
-  padding: 0 33px;
+  padding-left: 33px;
+  padding-right: 33px;
 }
 
 .px-34 {
-  padding: 0 34px;
+  padding-left: 34px;
+  padding-right: 34px;
 }
 
 .px-35 {
-  padding: 0 35px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .px-36 {
-  padding: 0 36px;
+  padding-left: 36px;
+  padding-right: 36px;
 }
 
 .px-37 {
-  padding: 0 37px;
+  padding-left: 37px;
+  padding-right: 37px;
 }
 
 .px-38 {
-  padding: 0 38px;
+  padding-left: 38px;
+  padding-right: 38px;
 }
 
 .px-39 {
-  padding: 0 39px;
+  padding-left: 39px;
+  padding-right: 39px;
 }
 
 .px-40 {
-  padding: 0 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .px-41 {
-  padding: 0 41px;
+  padding-left: 41px;
+  padding-right: 41px;
 }
 
 .px-42 {
-  padding: 0 42px;
+  padding-left: 42px;
+  padding-right: 42px;
 }
 
 .px-43 {
-  padding: 0 43px;
+  padding-left: 43px;
+  padding-right: 43px;
 }
 
 .px-44 {
-  padding: 0 44px;
+  padding-left: 44px;
+  padding-right: 44px;
 }
 
 .px-45 {
-  padding: 0 45px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 
 .px-46 {
-  padding: 0 46px;
+  padding-left: 46px;
+  padding-right: 46px;
 }
 
 .px-47 {
-  padding: 0 47px;
+  padding-left: 47px;
+  padding-right: 47px;
 }
 
 .px-48 {
-  padding: 0 48px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .px-49 {
-  padding: 0 49px;
+  padding-left: 49px;
+  padding-right: 49px;
 }
 
 .px-50 {
-  padding: 0 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .py-1 {
-  padding: 1px 0;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .py-2 {
-  padding: 2px 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .py-3 {
-  padding: 3px 0;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .py-4 {
-  padding: 4px 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .py-5 {
-  padding: 5px 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .py-6 {
-  padding: 6px 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .py-7 {
-  padding: 7px 0;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .py-8 {
-  padding: 8px 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .py-9 {
-  padding: 9px 0;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 
 .py-10 {
-  padding: 10px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .py-11 {
-  padding: 11px 0;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 
 .py-12 {
-  padding: 12px 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .py-13 {
-  padding: 13px 0;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
 
 .py-14 {
-  padding: 14px 0;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .py-15 {
-  padding: 15px 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .py-16 {
-  padding: 16px 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .py-17 {
-  padding: 17px 0;
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
 
 .py-18 {
-  padding: 18px 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .py-19 {
-  padding: 19px 0;
+  padding-top: 19px;
+  padding-bottom: 19px;
 }
 
 .py-20 {
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .py-21 {
-  padding: 21px 0;
+  padding-top: 21px;
+  padding-bottom: 21px;
 }
 
 .py-22 {
-  padding: 22px 0;
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
 
 .py-23 {
-  padding: 23px 0;
+  padding-top: 23px;
+  padding-bottom: 23px;
 }
 
 .py-24 {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .py-25 {
-  padding: 25px 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .py-26 {
-  padding: 26px 0;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 .py-27 {
-  padding: 27px 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
 
 .py-28 {
-  padding: 28px 0;
+  padding-top: 28px;
+  padding-bottom: 28px;
 }
 
 .py-29 {
-  padding: 29px 0;
+  padding-top: 29px;
+  padding-bottom: 29px;
 }
 
 .py-30 {
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .py-31 {
-  padding: 31px 0;
+  padding-top: 31px;
+  padding-bottom: 31px;
 }
 
 .py-32 {
-  padding: 32px 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .py-33 {
-  padding: 33px 0;
+  padding-top: 33px;
+  padding-bottom: 33px;
 }
 
 .py-34 {
-  padding: 34px 0;
+  padding-top: 34px;
+  padding-bottom: 34px;
 }
 
 .py-35 {
-  padding: 35px 0;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .py-36 {
-  padding: 36px 0;
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 
 .py-37 {
-  padding: 37px 0;
+  padding-top: 37px;
+  padding-bottom: 37px;
 }
 
 .py-38 {
-  padding: 38px 0;
+  padding-top: 38px;
+  padding-bottom: 38px;
 }
 
 .py-39 {
-  padding: 39px 0;
+  padding-top: 39px;
+  padding-bottom: 39px;
 }
 
 .py-40 {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .py-41 {
-  padding: 41px 0;
+  padding-top: 41px;
+  padding-bottom: 41px;
 }
 
 .py-42 {
-  padding: 42px 0;
+  padding-top: 42px;
+  padding-bottom: 42px;
 }
 
 .py-43 {
-  padding: 43px 0;
+  padding-top: 43px;
+  padding-bottom: 43px;
 }
 
 .py-44 {
-  padding: 44px 0;
+  padding-top: 44px;
+  padding-bottom: 44px;
 }
 
 .py-45 {
-  padding: 45px 0;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .py-46 {
-  padding: 46px 0;
+  padding-top: 46px;
+  padding-bottom: 46px;
 }
 
 .py-47 {
-  padding: 47px 0;
+  padding-top: 47px;
+  padding-bottom: 47px;
 }
 
 .py-48 {
-  padding: 48px 0;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .py-49 {
-  padding: 49px 0;
+  padding-top: 49px;
+  padding-bottom: 49px;
 }
 
 .py-50 {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .m-1 {
@@ -4100,403 +4207,503 @@ img {
 }
 
 .mx-1 {
-  margin: 0 1px;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 .mx-2 {
-  margin: 0 2px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .mx-3 {
-  margin: 0 3px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .mx-4 {
-  margin: 0 4px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .mx-5 {
-  margin: 0 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .mx-6 {
-  margin: 0 6px;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 .mx-7 {
-  margin: 0 7px;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 
 .mx-8 {
-  margin: 0 8px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .mx-9 {
-  margin: 0 9px;
+  margin-left: 9px;
+  margin-right: 9px;
 }
 
 .mx-10 {
-  margin: 0 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .mx-11 {
-  margin: 0 11px;
+  margin-left: 11px;
+  margin-right: 11px;
 }
 
 .mx-12 {
-  margin: 0 12px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .mx-13 {
-  margin: 0 13px;
+  margin-left: 13px;
+  margin-right: 13px;
 }
 
 .mx-14 {
-  margin: 0 14px;
+  margin-left: 14px;
+  margin-right: 14px;
 }
 
 .mx-15 {
-  margin: 0 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .mx-16 {
-  margin: 0 16px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .mx-17 {
-  margin: 0 17px;
+  margin-left: 17px;
+  margin-right: 17px;
 }
 
 .mx-18 {
-  margin: 0 18px;
+  margin-left: 18px;
+  margin-right: 18px;
 }
 
 .mx-19 {
-  margin: 0 19px;
+  margin-left: 19px;
+  margin-right: 19px;
 }
 
 .mx-20 {
-  margin: 0 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .mx-21 {
-  margin: 0 21px;
+  margin-left: 21px;
+  margin-right: 21px;
 }
 
 .mx-22 {
-  margin: 0 22px;
+  margin-left: 22px;
+  margin-right: 22px;
 }
 
 .mx-23 {
-  margin: 0 23px;
+  margin-left: 23px;
+  margin-right: 23px;
 }
 
 .mx-24 {
-  margin: 0 24px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .mx-25 {
-  margin: 0 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .mx-26 {
-  margin: 0 26px;
+  margin-left: 26px;
+  margin-right: 26px;
 }
 
 .mx-27 {
-  margin: 0 27px;
+  margin-left: 27px;
+  margin-right: 27px;
 }
 
 .mx-28 {
-  margin: 0 28px;
+  margin-left: 28px;
+  margin-right: 28px;
 }
 
 .mx-29 {
-  margin: 0 29px;
+  margin-left: 29px;
+  margin-right: 29px;
 }
 
 .mx-30 {
-  margin: 0 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .mx-31 {
-  margin: 0 31px;
+  margin-left: 31px;
+  margin-right: 31px;
 }
 
 .mx-32 {
-  margin: 0 32px;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
 .mx-33 {
-  margin: 0 33px;
+  margin-left: 33px;
+  margin-right: 33px;
 }
 
 .mx-34 {
-  margin: 0 34px;
+  margin-left: 34px;
+  margin-right: 34px;
 }
 
 .mx-35 {
-  margin: 0 35px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 .mx-36 {
-  margin: 0 36px;
+  margin-left: 36px;
+  margin-right: 36px;
 }
 
 .mx-37 {
-  margin: 0 37px;
+  margin-left: 37px;
+  margin-right: 37px;
 }
 
 .mx-38 {
-  margin: 0 38px;
+  margin-left: 38px;
+  margin-right: 38px;
 }
 
 .mx-39 {
-  margin: 0 39px;
+  margin-left: 39px;
+  margin-right: 39px;
 }
 
 .mx-40 {
-  margin: 0 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .mx-41 {
-  margin: 0 41px;
+  margin-left: 41px;
+  margin-right: 41px;
 }
 
 .mx-42 {
-  margin: 0 42px;
+  margin-left: 42px;
+  margin-right: 42px;
 }
 
 .mx-43 {
-  margin: 0 43px;
+  margin-left: 43px;
+  margin-right: 43px;
 }
 
 .mx-44 {
-  margin: 0 44px;
+  margin-left: 44px;
+  margin-right: 44px;
 }
 
 .mx-45 {
-  margin: 0 45px;
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 .mx-46 {
-  margin: 0 46px;
+  margin-left: 46px;
+  margin-right: 46px;
 }
 
 .mx-47 {
-  margin: 0 47px;
+  margin-left: 47px;
+  margin-right: 47px;
 }
 
 .mx-48 {
-  margin: 0 48px;
+  margin-left: 48px;
+  margin-right: 48px;
 }
 
 .mx-49 {
-  margin: 0 49px;
+  margin-left: 49px;
+  margin-right: 49px;
 }
 
 .mx-50 {
-  margin: 0 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .my-1 {
-  margin: 1px 0;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 .my-2 {
-  margin: 2px 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .my-3 {
-  margin: 3px 0;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .my-4 {
-  margin: 4px 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .my-5 {
-  margin: 5px 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .my-6 {
-  margin: 6px 0;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 .my-7 {
-  margin: 7px 0;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .my-8 {
-  margin: 8px 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .my-9 {
-  margin: 9px 0;
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 .my-10 {
-  margin: 10px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .my-11 {
-  margin: 11px 0;
+  margin-top: 11px;
+  margin-bottom: 11px;
 }
 
 .my-12 {
-  margin: 12px 0;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .my-13 {
-  margin: 13px 0;
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
 
 .my-14 {
-  margin: 14px 0;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 .my-15 {
-  margin: 15px 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .my-16 {
-  margin: 16px 0;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .my-17 {
-  margin: 17px 0;
+  margin-top: 17px;
+  margin-bottom: 17px;
 }
 
 .my-18 {
-  margin: 18px 0;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 
 .my-19 {
-  margin: 19px 0;
+  margin-top: 19px;
+  margin-bottom: 19px;
 }
 
 .my-20 {
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .my-21 {
-  margin: 21px 0;
+  margin-top: 21px;
+  margin-bottom: 21px;
 }
 
 .my-22 {
-  margin: 22px 0;
+  margin-top: 22px;
+  margin-bottom: 22px;
 }
 
 .my-23 {
-  margin: 23px 0;
+  margin-top: 23px;
+  margin-bottom: 23px;
 }
 
 .my-24 {
-  margin: 24px 0;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .my-25 {
-  margin: 25px 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .my-26 {
-  margin: 26px 0;
+  margin-top: 26px;
+  margin-bottom: 26px;
 }
 
 .my-27 {
-  margin: 27px 0;
+  margin-top: 27px;
+  margin-bottom: 27px;
 }
 
 .my-28 {
-  margin: 28px 0;
+  margin-top: 28px;
+  margin-bottom: 28px;
 }
 
 .my-29 {
-  margin: 29px 0;
+  margin-top: 29px;
+  margin-bottom: 29px;
 }
 
 .my-30 {
-  margin: 30px 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .my-31 {
-  margin: 31px 0;
+  margin-top: 31px;
+  margin-bottom: 31px;
 }
 
 .my-32 {
-  margin: 32px 0;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .my-33 {
-  margin: 33px 0;
+  margin-top: 33px;
+  margin-bottom: 33px;
 }
 
 .my-34 {
-  margin: 34px 0;
+  margin-top: 34px;
+  margin-bottom: 34px;
 }
 
 .my-35 {
-  margin: 35px 0;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .my-36 {
-  margin: 36px 0;
+  margin-top: 36px;
+  margin-bottom: 36px;
 }
 
 .my-37 {
-  margin: 37px 0;
+  margin-top: 37px;
+  margin-bottom: 37px;
 }
 
 .my-38 {
-  margin: 38px 0;
+  margin-top: 38px;
+  margin-bottom: 38px;
 }
 
 .my-39 {
-  margin: 39px 0;
+  margin-top: 39px;
+  margin-bottom: 39px;
 }
 
 .my-40 {
-  margin: 40px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .my-41 {
-  margin: 41px 0;
+  margin-top: 41px;
+  margin-bottom: 41px;
 }
 
 .my-42 {
-  margin: 42px 0;
+  margin-top: 42px;
+  margin-bottom: 42px;
 }
 
 .my-43 {
-  margin: 43px 0;
+  margin-top: 43px;
+  margin-bottom: 43px;
 }
 
 .my-44 {
-  margin: 44px 0;
+  margin-top: 44px;
+  margin-bottom: 44px;
 }
 
 .my-45 {
-  margin: 45px 0;
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
 .my-46 {
-  margin: 46px 0;
+  margin-top: 46px;
+  margin-bottom: 46px;
 }
 
 .my-47 {
-  margin: 47px 0;
+  margin-top: 47px;
+  margin-bottom: 47px;
 }
 
 .my-48 {
-  margin: 48px 0;
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 .my-49 {
-  margin: 49px 0;
+  margin-top: 49px;
+  margin-bottom: 49px;
 }
 
 .my-50 {
-  margin: 50px 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .w-1 {
@@ -5579,6 +5786,10 @@ img {
   line-height: 200%;
 }
 
+z-n1 {
+  z-index: -1;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -5677,6 +5888,10 @@ img {
 
 .op-1 {
   opacity: 1;
+}
+
+.text-under {
+  text-decoration: underline;
 }
 
 @media (min-width: 424px) {
@@ -6603,4 +6818,116 @@ img {
   .order-big-12 {
     order: 12;
   }
+}
+body {
+  position: relative;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  background-color: var(--col-black);
+}
+
+.container {
+  color: white;
+  background-color: #3e4451;
+}
+
+.main-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-title > div {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 110%;
+  margin-bottom: 16px;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #fff, #f7f6fe, #edeefd, #e1e7fc, #d3e0fb, #c8defc, #bbddfd, #addcfc, #a0dffa, #95e2f6, #8ee4ee, #8be6e4);
+}
+@media screen and (min-width: 1023px) {
+  .main-title > div {
+    margin-bottom: 50px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 18px;
+  margin-bottom: 24px;
+}
+.content-title {
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #fff, #f7f6fe, #edeefd, #e1e7fc, #d3e0fb, #c8defc, #bbddfd, #addcfc, #a0dffa, #95e2f6, #8ee4ee, #8be6e4);
+  font-size: 24px;
+}
+@media screen and (max-width: 1023px) {
+  .content {
+    padding: 0 8px;
+    margin-bottom: 16px;
+  }
+}
+
+.content-text {
+  padding-bottom: 8px;
+}
+@media screen and (min-width: 1023px) {
+  .content-text {
+    width: 60%;
+  }
+}
+
+.code {
+  background-color: #212121;
+  color: var(--col-white);
+}
+@media screen and (min-width: 1023px) {
+  .code {
+    width: 70%;
+  }
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 150px;
+  background-color: var(--col-red);
+  border: 1px solid var(--col-white);
+  color: var(--col-white);
+  margin-bottom: 10px;
+}
+
+.test-box {
+  margin-bottom: 20px;
+  background-color: var(--col-red);
+  border: 1px solid var(--col-white);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: green;
+  min-height: 100px;
+  font-size: 16px;
+  border: 4px dashed black;
+}
+
+.con-bg {
+  background-color: transparent;
 }/*# sourceMappingURL=index.css.map */
