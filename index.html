@@ -12,95 +12,102 @@
       <div class="logo-image center mb-16">
         <img src="./img/main-logo.png" alt="logo">
       </div>
-      <div class="logo-content center tac fs-18 fw-500 mb-24">
+      <div class="logo-content center tac fs-18 fw-500 mb-16">
         BerryCss enables you to construct your project more efficiently by merging the structures of Bootstrap and
         Tailwind.
       </div>
+      <div class="logo-content center tac fs-16 fw-400 mb-36 row-gap-2">
+        At the same time, BerryCss includes a global CSS reset feature, enhancing the efficiency of your project
+        construction.
+      </div>
     </div>
-    <div class="main-title">
-      <div>Documentation</div>
+    <div class="main-title center">
+      <div class="fs-32 fw-700 lh-110 mb-16 w-max">Documentation</div>
     </div>
-    <div class="content">
-      <div class="content-title fs-20 fw-500 col-green">
+    <div class="content df fdc gap-12 px-18 mb-24">
+      <div class="content-title w-max fs-24 fw-500 col-green">
         Available breakpoints
       </div>
-      <div class="content-text fs-16 fw-400">
+      <div class="content-text pb-8 fs-16 fw-400">
         BerryCSS includes six default breakpoints, sometimes referred to as grid tiers, for building responsively. These
         breakpoints can be customized if you’re using our source Sass files.
       </div>
-      <div class="code df fdc gap-28 py-28 px-16 bg-white fs-14 rad-4">
-        <div>
-          <div class="op-08">// `$xxs` applies to x-small devices (portrait phones phones, more than 374px)</div>
-          <div>$xxs: 374px;</div>
-          <div>@media screen and (min-width: $xxs) {...}</div>
+      <div class="code df fdc gap-28 py-28 px-12 bg-white fs-14 rad-4">
+        <div class="op-08">// `$xxs` applies to x-small devices (portrait phones phones, more than 374px)<div>
+            <div>$xxs: 374px;</div>
+            <div>@media screen and (min-width: $xxs) {...}</div>
+            <div class="df fdc gap-4">
+              <div class="op-08">// `$sm` applies to small devices (Landscape phones, more than 424px)</div>
+              <div>$sm: 424px;</div>
+              <div>@media screen and (min-width: $sm) {...}</div>
+            </div>
+            <div class="df fdc gap-4">
+              <div class="op-08">// `$mob` applies to general phone devices (phones, more than 576px)</div>
+              <div>$mob: 576px;</div>
+              <div>@media screen and (min-width: $mob) {...}</div>
+            </div>
+            <div class="df fdc gap-4">
+              <div class="op-08">// `$tab` applies to general tablet devices (tablets, more than 767px)</div>
+              <div>$tab: 767px;</div>
+              <div>@media screen and (min-width: $tab) {...}</div>
+            </div>
+            <div class="df fdc gap-4">
+              <div class="op-08">// `$lap` applies to general laptop devices (laptops, more than 1023px)</div>
+              <div>$lap: 1023px;</div>
+              <div>@media screen and (min-width: $lap) {...}</div>
+            </div>
+            <div class="df fdc gap-4">
+              <div class="op-08">// `$lap` applies to general big screen devices (big screens, more than 1440px)</div>
+              <div>$desk: 1440px;</div>
+              <div>@media screen and (min-width: $desk) {...}</div>
+            </div>
+            <div class="df fdc gap-4">
+              <div class="op-08">// `$lap` applies to general large screen devices (large screens, more than 1440px)
+              </div>
+              <div>$big: 1600px;</div>
+              <div>@media screen and (min-width: $big) {...}</div>
+            </div>
+          </div>
         </div>
-        <div class="df fdc gap-4">
-          <div class="op-08">// `$sm` applies to small devices (Landscape phones, more than 424px)</div>
-          <div>$sm: 424px;</div>
-          <div>@media screen and (min-width: $sm) {...}</div>
-        </div>
-        <div class="df fdc gap-4">
-          <div class="op-08">// `$mob` applies to general phone devices (phones, more than 576px)</div>
-          <div>$mob: 576px;</div>
-          <div>@media screen and (min-width: $mob) {...}</div>
-        </div>
-        <div class="df fdc gap-4">
-          <div class="op-08">// `$tab` applies to general tablet devices (tablets, more than 767px)</div>
-          <div>$tab: 767px;</div>
-          <div>@media screen and (min-width: $tab) {...}</div>
-        </div>
-        <div class="df fdc gap-4">
-          <div class="op-08">// `$lap` applies to general laptop devices (laptops, more than 1023px)</div>
-          <div>$lap: 1023px;</div>
-          <div>@media screen and (min-width: $lap) {...}</div>
-        </div>
-        <div class="df fdc gap-4">
-          <div class="op-08">// `$lap` applies to general big screen devices (big screens, more than 1440px)</div>
-          <div>$desk: 1440px;</div>
-          <div>@media screen and (min-width: $desk) {...}</div>
-        </div>
-        <div class="df fdc gap-4">
-          <div class="op-08">// `$lap` applies to general large screen devices (large screens, more than 1440px)</div>
-          <div>$big: 1600px;</div>
-          <div>@media screen and (min-width: $big) {...}</div>
-        </div>
+
       </div>
     </div>
-    <div class="content">
-      <div class="content-title fs-20 fw-500 col-green">
+    <div class="content df fdc gap-12 px-18 mb-24">
+      <div class="content-title w-max fs-24 fw-500 col-green">
         Colors
       </div>
-      <div class="content-text fs-16 fw-400">
-        When you define the colors of your project within the root you see in the visual, you can start using them both
+      <div class="content-text pb-8 fs-16 fw-400">
+        When you define the colors of your project within the root you see in the visual, you can start using them
+        both
         within the CSS and automatically inside the classes.
       </div>
-      <div class="code py-28 px-16 bg-white fs-14 rad-4">
+      <div class="code py-28 px-12 bg-white fs-14 rad-4">
         <img src="./img/root-colors.png" alt="root-colors">
       </div>
     </div>
-    <div class="content">
-      <div class="content-title fs-20 fw-500 col-green">
+    <div class="content df fdc gap-12 px-18 mb-24">
+      <div class="content-title w-max fs-24 fw-500 col-green">
         Default Container
       </div>
-      <div class="content-text fs-16 fw-400">
+      <div class="content-text pb-8 fs-16 fw-400">
         Our default .container class is a responsive, fixed-width container, meaning its max-width changes at each
         breakpoint.
       </div>
-      <div class="code py-28 px-16 bg-white fs-14 rad-4">
+      <div class="code py-28 px-12 bg-white fs-14 rad-4">
         <img src="./img/container.png" alt="container">
       </div>
     </div>
-    <div class="content">
-      <div class="content-title fs-20 fw-500 col-green">
+    <div class="content df fdc gap-12 px-18 mb-24">
+      <div class="content-title w-max fs-24 fw-500 col-green">
         Grid system
       </div>
-      <div class="content-text fs-16 fw-400">
+      <div class="content-text pb-8 fs-16 fw-400">
         For grids that are the same from the smallest of devices to the largest, use the .box and .box-* classes.
         Specify a numbered class when you need a particularly sized column; otherwise, feel free to stick to .box
       </div>
-      <div class="code py-28 px-16 bg-white fs-14 rad-4">
+      <div class="code py-28 px-12 bg-white fs-14 rad-4">
         <img src="./img/row.png" alt="row">
-        <div class="container px-12 my-12 con-bg">
+        <div class="container px-12 my-12 bg-trans">
           <div class="row">
             <div class="box-3 box">Box Content</div>
             <div class="box-3 box">Box Content</div>
@@ -109,7 +116,7 @@
           </div>
         </div>
         <img src="./img/row2.png" alt="row2">
-        <div class="container px-12 my-12 con-bg">
+        <div class="container px-12 my-12 bg-trans">
           <div class="row">
             <div class="box-8 box">Box Content</div>
             <div class="box-4 box">Box Content</div>
@@ -121,17 +128,18 @@
         </div>
       </div>
     </div>
-    <div class="content">
-      <div class="content-title fs-20 fw-500 col-green">
+    <div class="content df fdc gap-12 px-18 mb-24">
+      <div class="content-title w-max fs-24 fw-500 col-green">
         Stacked To Horizontal
       </div>
-      <div class="content-text fs-16 fw-400">
-        Using a single set of .box-sm-* classes, you can create a basic grid system that starts out stacked and becomes
+      <div class="content-text pb-8 fs-16 fw-400">
+        Using a single set of .box-sm-* classes, you can create a basic grid system that starts out stacked and
+        becomes
         horizontal at the small breakpoint (sm).
       </div>
-      <div class="code py-28 px-16 bg-white fs-14 rad-4">
+      <div class="code py-28 px-12 bg-white fs-14 rad-4">
         <img src="./img/box-sm.png" alt="box-sm">
-        <div class="container px-12 my-12 con-bg">
+        <div class="container px-12 my-12 bg-trans">
           <div class="row">
             <div class="box-sm-3 box">box-sm-3</div>
             <div class="box-sm-3 box">box-sm-3</div>
@@ -141,17 +149,18 @@
         </div>
       </div>
     </div>
-    <div class="content">
-      <div class="content-title fs-20 fw-500 col-green">
+    <div class="content df fdc gap-12 px-18 mb-24">
+      <div class="content-title w-max fs-24 fw-500 col-green">
         Mix And Match
       </div>
-      <div class="content-text fs-16 fw-400">
-        Don’t want your columns to simply stack in some grid tiers? Use a combination of different classes for each tier
+      <div class="content-text pb-8 fs-16 fw-400">
+        Don’t want your columns to simply stack in some grid tiers? Use a combination of different classes for each
+        tier
         as needed. See the example below for a better idea of how it all works.
       </div>
-      <div class="code py-28 px-16 bg-white fs-14 rad-4">
+      <div class="code py-28 px-12 bg-white fs-14 rad-4">
         <img src="./img/box-combine.png" alt="box-combine">
-        <div class="container px-12 my-12 con-bg">
+        <div class="container px-12 my-12 bg-trans">
           <div class="row">
             <div class="box-sm-3 box-tab-6 box-lap-8 box">box-sm-3 / box-tab-6 / box-lap-8</div>
             <div class="box-sm-3 box-tab-6 box-lap-4 box">box-sm-3 / box-tab-6 / box-lap-4</div>
@@ -160,7 +169,7 @@
           </div>
         </div>
         <img src="./img/box-combine2.png" alt="box-combine2">
-        <div class="container px-12 my-12 con-bg">
+        <div class="container px-12 my-12 bg-trans">
           <div class="row">
             <div class="box-mob-4 box-big-8 box">box-mob-4 / box-big-8</div>
             <div class="box-mob-8 box-big-4 box">box-mob-8 / box-big-4</div>
@@ -170,14 +179,62 @@
         </div>
       </div>
     </div>
-    <div class="content">
-      <div class="content-title fs-20 fw-500 col-green">
+    <div class="content df fdc gap-12 px-18 mb-24">
+      <div class="content-title w-max fs-24 fw-500 col-green">
+        Responsive Size System
+      </div>
+      <div class="content-text pb-8 fs-16 fw-400">
+        <div class="mb-8">We've created a responsive 'size system' and applied it to all classes. Without any extra
+          effort, all pixel values will automatically scale down to a ratio of 0.81 below the tablet breakpoint of
+          767px, achieving a fully responsive appearance automatically.</div>
+
+        <div>The provided values for font size, margin, padding, gap, radius, etc., will scale down by a factor of
+          0.81,
+          and there will be no need to write individual media queries.</div>
+      </div>
+      <div class="code py-28 px-12 bg-white fs-14 rad-4">
+        <img src="./img/size-system.png" alt="size-system">
+        <div class="fs-24 p-16 m-16 rad-16">"You can check this text 767px for example..."</div>
+        <div class="fs-16 p-8 m-8 rad-8">"You can check this text 767px for example..."</div>
+        <div class="op-08 mt-20">// Additionally, in the CSS file, you can use these values from 1 to 50.</div>
+        <img src="./img/size-system2.png" alt="size-system2">
+        <div class="op-08 mt-8">// The provided values will scale responsively down.</div>
+      </div>
+    </div>
+    <div class="content df fdc gap-12 px-18 mb-24">
+      <div class="content-title w-max fs-24 fw-500 col-green">
+        Flexbox Classes
+      </div>
+      <div class="content-text pb-8 fs-16 fw-400">
+        <div class="mb-8">There's no need to define CSS values for flexbox properties separately. We've encapsulated
+          them into classes for easy use.</div>
+        <div>For example, when you type 'df', it automatically sets "display:flex;", and similarly, typing 'aic'
+          would set "align-items:center;".You can individually verify the examples below.</div>
+      </div>
+      <div class="code py-28 px-12 bg-white fs-14 rad-4">
+        <div class="op-08 mb-12">// Align Items Classes</div>
+        <div class="flex-test df ais">ais = align items start</div>
+        <div class="flex-test df aic">aic = align items center</div>
+        <div class="flex-test df aie">aic = align items end</div>
+        <div class="op-08 mt-32 mb-12">// Justify Content Classes</div>
+        <div class="flex-test df jcs">jcs = justify content start</div>
+        <div class="flex-test df jcc">jcc = justify content center</div>
+        <div class="flex-test df jce">jce = justify content end</div>
+        <div class="op-08 mt-32 mb-12">// Align & Justify Classes</div>
+        <div class="flex-test df aic jcc">class="df aic jcc"</div>
+        <div class="flex-test df aie jce">class="df aic jce"</div>
+        <div class="op-08 mt-32 mb-12">// Center Class</div>
+        <div class="flex-test center">class="center"</div>
+      </div>
+    </div>
+    <div class="content df fdc gap-12 px-18 mb-24">
+      <div class="content-title w-max fs-24 fw-500 col-green">
         Padding
       </div>
-      <div class="content-text fs-16 fw-400">
+      <div class="content-text pb-8 fs-16 fw-400">
         You can easily define padding classes between "from 1px to 50px"
       </div>
-      <div class="code py-28 px-16 bg-white fs-14 rad-4">
+      <div class="code py-28 px-12 bg-white fs-14 rad-4">
         <div class="op-08 mb-8 tac">*** Different Paddings ***</div>
         <div class="center mb-8">
           <div class="p-15 bg-br">p-15</div>
@@ -186,57 +243,57 @@
           <div class="p-50 bg-black">p-50</div>
         </div>
         <div class="op-08 mb-8 tac">*** class="p-20" ***</div>
-        <div class="p-20 test-box mb-20">
-          <div class="inner">
+        <div class="p-20 test-box bor-white bg-red mb-20">
+          <div class="inner center tac bg-green fs-16">
             Padding All: 20px
           </div>
         </div>
         <div class="op-08 mb-8 tac">*** class="pt-20" ***</div>
-        <div class="pt-20 test-box mb-20">
-          <div class="inner">
+        <div class="pt-20 test-box bor-white bg-red mb-20">
+          <div class="inner center tac bg-green fs-16">
             Padding Top: 20px
           </div>
         </div>
         <div class="op-08 mb-8 tac">*** class="pl-20" ***</div>
-        <div class="pl-20 test-box mb-20">
-          <div class="inner">
+        <div class="pl-20 test-box bor-white bg-red mb-20">
+          <div class="inner center tac bg-green fs-16">
             Padding Left: 20px
           </div>
         </div>
         <div class="op-08 mb-8 tac">*** class="pr-20" ***</div>
-        <div class="pr-20 test-box mb-20">
-          <div class="inner">
+        <div class="pr-20 test-box bor-white bg-red mb-20">
+          <div class="inner center tac bg-green fs-16">
             Padding Right: 20px
           </div>
         </div>
         <div class="op-08 mb-8 tac">*** class="pb-20" ***</div>
-        <div class="pb-20 test-box mb-20">
-          <div class="inner">
+        <div class="pb-20 test-box bor-white bg-red mb-20">
+          <div class="inner center tac bg-green fs-16">
             Padding Bottom: 20px
           </div>
         </div>
         <div class="op-08 mb-8 tac">*** class="px-20" ***</div>
-        <div class="px-20 test-box mb-20">
-          <div class="inner">
+        <div class="px-20 test-box bor-white bg-red mb-20">
+          <div class="inner center tac bg-green fs-16">
             Padding-x: 20px
           </div>
         </div>
         <div class="op-08 mb-8 tac">*** class="py-20" ***</div>
-        <div class="py-20 test-box mb-20">
-          <div class="inner">
+        <div class="py-20 test-box bor-white bg-red mb-20">
+          <div class="inner center tac bg-green fs-16">
             Padding-y: 20px
           </div>
         </div>
       </div>
     </div>
-    <div class="content">
-      <div class="content-title fs-20 fw-500 col-green">
+    <div class="content df fdc gap-12 px-18 mb-24">
+      <div class="content-title w-max fs-24 fw-500 col-green">
         Margin
       </div>
-      <div class="content-text fs-16 fw-400">
+      <div class="content-text pb-8 fs-16 fw-400">
         You can easily define margin classes between "from 1px to 50px"
       </div>
-      <div class="code py-28 px-16 bg-white fs-14 rad-4">
+      <div class="code py-28 px-12 bg-white fs-14 rad-4">
         <div class="op-08 mb-8 tac">*** Different Margins ***</div>
         <div class="center mb-16">
           <div class="w-50 h-50 center mt-15 bg-black">mt-25</div>
@@ -245,49 +302,48 @@
           <div class="w-50 h-50 center ml-15 bg-green">ml-15</div>
         </div>
         <div class="op-08 mb-8 tac">*** class="m-20" ***</div>
-        <div class="test-box">
-          <div class="inner m-20">
+        <div class="test-box bor-white bg-red">
+          <div class="inner center tac bg-green fs-16 m-20">
             Margin All: 20px
           </div>
         </div>
         <div class="op-08 mb-8 tac">*** class="mt-20" ***</div>
-        <div class="test-box">
-          <div class="inner mt-20">
+        <div class="test-box bor-white bg-red">
+          <div class="inner center tac bg-green fs-16 mt-20">
             Margin Top: 20px
           </div>
         </div>
         <div class="op-08 mb-8 tac">*** class="ml-20" ***</div>
-        <div class="test-box">
-          <div class="inner ml-20">
+        <div class="test-box bor-white bg-red">
+          <div class="inner center tac bg-green fs-16 ml-20">
             Margin Left: 20px
           </div>
         </div>
         <div class="op-08 mb-8 tac">*** class="mr-20" ***</div>
-        <div class="test-box">
-          <div class="inner mr-20">
+        <div class="test-box bor-white bg-red">
+          <div class="inner center tac bg-green fs-16 mr-20">
             Margin Right: 20px
           </div>
         </div>
         <div class="op-08 mb-8 tac">*** class="mb-20" ***</div>
-        <div class="test-box">
-          <div class="inner mb-20">
+        <div class="test-box bor-white bg-red">
+          <div class="inner center tac bg-green fs-16 mb-20">
             Margin Bottom: 20px
           </div>
         </div>
         <div class="op-08 mb-8 tac">*** class="mx-20" ***</div>
-        <div class="test-box">
-          <div class="inner mx-20">
+        <div class="test-box bor-white bg-red">
+          <div class="inner center tac bg-green fs-16 mx-20">
             Margin-x: 20px
           </div>
         </div>
         <div class="op-08 mb-8 tac">*** class="my-20" ***</div>
-        <div class="test-box">
-          <div class="inner my-20">
+        <div class="test-box bor-white bg-red">
+          <div class="inner center tac bg-green fs-16 my-20">
             Margin-y: 20px
           </div>
         </div>
       </div>
     </div>
-  </div>
 </body>
 </html>
