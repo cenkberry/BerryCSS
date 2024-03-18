@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="./index.css">
   <title>BerryCSS Documentation</title>
 </head>
+
 <body>
   <div class="container pt-24">
     <div class="logo px-12">
@@ -33,43 +35,37 @@
         breakpoints can be customized if you’re using our source Sass files.
       </div>
       <div class="code df fdc gap-28 py-28 px-12 bg-white fs-14 rad-4">
-        <div class="op-08">// `$xxs` applies to x-small devices (portrait phones phones, more than 374px)<div>
-            <div>$xxs: 374px;</div>
-            <div>@media screen and (min-width: $xxs) {...}</div>
-            <div class="df fdc gap-4">
-              <div class="op-08">// `$sm` applies to small devices (Landscape phones, more than 424px)</div>
-              <div>$sm: 424px;</div>
-              <div>@media screen and (min-width: $sm) {...}</div>
-            </div>
-            <div class="df fdc gap-4">
-              <div class="op-08">// `$mob` applies to general phone devices (phones, more than 576px)</div>
-              <div>$mob: 576px;</div>
-              <div>@media screen and (min-width: $mob) {...}</div>
-            </div>
-            <div class="df fdc gap-4">
-              <div class="op-08">// `$tab` applies to general tablet devices (tablets, more than 767px)</div>
-              <div>$tab: 767px;</div>
-              <div>@media screen and (min-width: $tab) {...}</div>
-            </div>
-            <div class="df fdc gap-4">
-              <div class="op-08">// `$lap` applies to general laptop devices (laptops, more than 1023px)</div>
-              <div>$lap: 1023px;</div>
-              <div>@media screen and (min-width: $lap) {...}</div>
-            </div>
-            <div class="df fdc gap-4">
-              <div class="op-08">// `$lap` applies to general big screen devices (big screens, more than 1440px)</div>
-              <div>$desk: 1440px;</div>
-              <div>@media screen and (min-width: $desk) {...}</div>
-            </div>
-            <div class="df fdc gap-4">
-              <div class="op-08">// `$lap` applies to general large screen devices (large screens, more than 1440px)
-              </div>
-              <div>$big: 1600px;</div>
-              <div>@media screen and (min-width: $big) {...}</div>
-            </div>
-          </div>
+        <div class="df fdc gap-4 mb-12">
+          <div class="op-08">// `$xxs` applies to small devices (Landscape phones, more than 374px)</div>
+          <div>$xxs: 374px;</div>
+          <div>@media screen and (min-width: $xxs) {...}</div>
         </div>
-
+        <div class="df fdc gap-4 mb-12">
+          <div class="op-08">// `$mob` applies to general phone devices (phones, more than 576px)</div>
+          <div>$mob: 576px;</div>
+          <div>@media screen and (min-width: $mob) {...}</div>
+        </div>
+        <div class="df fdc gap-4 mb-12">
+          <div class="op-08">// `$tab` applies to general tablet devices (tablets, more than 767px)</div>
+          <div>$tab: 767px;</div>
+          <div>@media screen and (min-width: $tab) {...}</div>
+        </div>
+        <div class="df fdc gap-4 mb-12">
+          <div class="op-08">// `$lap` applies to general laptop devices (laptops, more than 1023px)</div>
+          <div>$lap: 1023px;</div>
+          <div>@media screen and (min-width: $lap) {...}</div>
+        </div>
+        <div class="df fdc gap-4 mb-12">
+          <div class="op-08">// `$lap` applies to general big screen devices (big screens, more than 1440px)</div>
+          <div>$desk: 1440px;</div>
+          <div>@media screen and (min-width: $desk) {...}</div>
+        </div>
+        <div class="df fdc gap-4 mb-12">
+          <div class="op-08">// `$lap` applies to general large screen devices (large screens, more than 1440px)
+          </div>
+          <div>$big: 1600px;</div>
+          <div>@media screen and (min-width: $big) {...}</div>
+        </div>
       </div>
     </div>
     <div class="content df fdc gap-12 px-18 mb-24">
@@ -215,7 +211,7 @@
         <div class="op-08 mb-12">// Align Items Classes</div>
         <div class="flex-test df ais">ais = align items start</div>
         <div class="flex-test df aic">aic = align items center</div>
-        <div class="flex-test df aie">aic = align items end</div>
+        <div class="flex-test df aie">aie = align items end</div>
         <div class="op-08 mt-32 mb-12">// Justify Content Classes</div>
         <div class="flex-test df jcs">jcs = justify content start</div>
         <div class="flex-test df jcc">jcc = justify content center</div>
@@ -301,43 +297,43 @@
           <div class="w-50 h-50 center mb-15 bg-yellow">mb-15</div>
           <div class="w-50 h-50 center ml-15 bg-green">ml-15</div>
         </div>
-        <div class="op-08 mb-8 tac">*** class="m-20" ***</div>
+        <div class="op-08 mb-8 tac mt-20">*** class="m-20" ***</div>
         <div class="test-box bor-white bg-red">
           <div class="inner center tac bg-green fs-16 m-20">
             Margin All: 20px
           </div>
         </div>
-        <div class="op-08 mb-8 tac">*** class="mt-20" ***</div>
+        <div class="op-08 mb-8 tac mt-20">*** class="mt-20" ***</div>
         <div class="test-box bor-white bg-red">
           <div class="inner center tac bg-green fs-16 mt-20">
             Margin Top: 20px
           </div>
         </div>
-        <div class="op-08 mb-8 tac">*** class="ml-20" ***</div>
+        <div class="op-08 mb-8 tac mt-20">*** class="ml-20" ***</div>
         <div class="test-box bor-white bg-red">
           <div class="inner center tac bg-green fs-16 ml-20">
             Margin Left: 20px
           </div>
         </div>
-        <div class="op-08 mb-8 tac">*** class="mr-20" ***</div>
+        <div class="op-08 mb-8 tac mt-20">*** class="mr-20" ***</div>
         <div class="test-box bor-white bg-red">
           <div class="inner center tac bg-green fs-16 mr-20">
             Margin Right: 20px
           </div>
         </div>
-        <div class="op-08 mb-8 tac">*** class="mb-20" ***</div>
+        <div class="op-08 mb-8 tac mt-20">*** class="mb-20" ***</div>
         <div class="test-box bor-white bg-red">
           <div class="inner center tac bg-green fs-16 mb-20">
             Margin Bottom: 20px
           </div>
         </div>
-        <div class="op-08 mb-8 tac">*** class="mx-20" ***</div>
+        <div class="op-08 mb-8 tac mt-20">*** class="mx-20" ***</div>
         <div class="test-box bor-white bg-red">
           <div class="inner center tac bg-green fs-16 mx-20">
             Margin-x: 20px
           </div>
         </div>
-        <div class="op-08 mb-8 tac">*** class="my-20" ***</div>
+        <div class="op-08 mb-8 tac mt-20">*** class="my-20" ***</div>
         <div class="test-box bor-white bg-red">
           <div class="inner center tac bg-green fs-16 my-20">
             Margin-y: 20px
@@ -346,4 +342,5 @@
       </div>
     </div>
 </body>
+
 </html>
