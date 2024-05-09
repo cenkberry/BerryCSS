@@ -28,21 +28,6 @@
 .fdcr {
   flex-direction: column-reverse;
 }
-.flex-auto {
-  flex: 0 0 auto;
-}
-.flex-1 {
-  flex: 1 0 0;
-}
-.flex-25 {
-  flex: 0 0 25%;
-}
-.flex-50 {
-  flex: 0 0 50%;
-}
-.flex-75 {
-  flex: 0 0 75%;
-}
 .ais {
   align-items: flex-start;
 }
@@ -69,6 +54,21 @@
 }
 .jc-even {
   justify-content: space-evenly;
+}
+.flex-auto {
+  flex: 0 0 auto;
+}
+.flex-1 {
+  flex: 1 0 0;
+}
+.flex-25 {
+  flex: 0 0 25%;
+}
+.flex-50 {
+  flex: 0 0 50%;
+}
+.flex-75 {
+  flex: 0 0 75%;
 }
 
 // Gap
