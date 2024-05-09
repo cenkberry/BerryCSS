@@ -1,0 +1,147 @@
+
+// Color Classes
+.col-black {
+  color: var(--col-black);
+}
+.col-white {
+  color: var(--col-white);
+}
+.col-grey {
+  color: var(--col-grey);
+}
+.col-red {
+  color: var(--col-red);
+}
+.col-yellow {
+  color: var(--col-yellow);
+}
+.col-green {
+  color: var(--col-green);
+}
+.col-pr {
+  color: var(--col-pr);
+}
+.col-sc {
+  color: var(--col-sc);
+}
+.col-three {
+  color: var(--col-three);
+}
+.col-four {
+  color: var(--col-four);
+}
+.col-five {
+  color: var(--col-five);
+}
+.col-text {
+  color: var(--col-text);
+}
+.col-alt {
+  color: var(--col-alt);
+}
+.col-bg {
+  color: var(--col-bg);
+}
+.col-br {
+  color: var(--col-br);
+}
+
+// Background Classes
+.bg-black {
+  background-color: var(--col-black);
+}
+.bg-white {
+  background-color: var(--col-white);
+}
+.bg-grey {
+  background-color: var(--col-grey);
+}
+.bg-red {
+  background-color: var(--col-red);
+}
+.bg-yellow {
+  background-color: var(--col-yellow);
+}
+.bg-green {
+  background-color: var(--col-green);
+}
+.bg-pr {
+  background-color: var(--col-pr);
+}
+.bg-sc {
+  background-color: var(--col-sc);
+}
+.bg-three {
+  background-color: var(--col-three);
+}
+.bg-four {
+  background-color: var(--col-four);
+}
+.bg-five {
+  background-color: var(--col-five);
+}
+.bg-text {
+  background-color: var(--col-text);
+}
+.bg-alt {
+  background-color: var(--col-alt);
+}
+.bg-bg {
+  background-color: var(--col-bg);
+}
+.bg-br {
+  background-color: var(--col-br);
+}
+.bg-trans {
+  background-color: transparent;
+}
+
+// Border Classes
+.bor-black {
+  border: var(--size-1) solid var(--col-black);
+}
+.bor-white {
+  border: var(--size-1) solid var(--col-white);
+}
+.bor-grey {
+  border: var(--size-1) solid var(--col-grey);
+}
+.bor-red {
+  border: var(--size-1) solid var(--col-red);
+}
+.bor-yellow {
+  border: var(--size-1) solid var(--col-yellow);
+}
+.bor-green {
+  border: var(--size-1) solid var(--col-green);
+}
+.bor-pr {
+  border: var(--size-1) solid var(--col-pr);
+}
+.bor-sc {
+  border: var(--size-1) solid var(--col-sc);
+}
+.bor-three {
+  border: var(--size-1) solid var(--col-three);
+}
+.bor-four {
+  border: var(--size-1) solid var(--col-four);
+}
+.bor-five {
+  border: var(--size-1) solid var(--col-five);
+}
+.bor-text {
+  border: var(--size-1) solid var(--col-text);
+}
+.bor-alt {
+  border: var(--size-1) solid var(--col-alt);
+}
+.bor-bg {
+  border: var(--size-1) solid var(--col-bg);
+}
+.bor-br {
+  border: var(--size-1) solid var(--col-br);
+}
+.bor-none {
+  border: none;
+}

@@ -1,15 +1,14 @@
-// Enter The design values
-$container: 1320px;
-$gutter: 16px;
-
-// Breakpoints "
-$xxs: 374px;
-$sm: 424px;
-$mob: 576px;
-$tab: 767px;
-$lap: 1023px;
-$desk: 1440px;
-$big: 1600px;
+// Define Size System in Root
+:root {
+  @for $i from 1 through 50 {
+    --size-#{$i}: #{$i}px;
+  }
+  @media screen and (max-width: 768px) {
+    @for $i from 1 through 50 {
+      --size-#{$i}: #{0.70*$i}px;
+    }
+  }
+}
 
 // Root Colors
 :root {
@@ -30,111 +29,15 @@ $big: 1600px;
   --col-br: #000;
 }
 
-// Size System Root
-:root {
-  --size-1: 1px;
-  --size-2: 2px;
-  --size-3: 3px;
-  --size-4: 4px;
-  --size-5: 5px;
-  --size-6: 6px;
-  --size-7: 7px;
-  --size-8: 8px;
-  --size-9: 9px;
-  --size-10: 10px;
-  --size-11: 11px;
-  --size-12: 12px;
-  --size-13: 13px;
-  --size-14: 14px;
-  --size-15: 15px;
-  --size-16: 16px;
-  --size-17: 17px;
-  --size-18: 18px;
-  --size-19: 19px;
-  --size-20: 20px;
-  --size-21: 21px;
-  --size-22: 22px;
-  --size-23: 23px;
-  --size-24: 24px;
-  --size-25: 25px;
-  --size-26: 26px;
-  --size-27: 27px;
-  --size-28: 28px;
-  --size-29: 29px;
-  --size-30: 30px;
-  --size-31: 31px;
-  --size-32: 32px;
-  --size-33: 33px;
-  --size-34: 34px;
-  --size-35: 35px;
-  --size-36: 36px;
-  --size-37: 37px;
-  --size-38: 38px;
-  --size-39: 39px;
-  --size-40: 40px;
-  --size-41: 41px;
-  --size-42: 42px;
-  --size-43: 43px;
-  --size-44: 44px;
-  --size-45: 45px;
-  --size-46: 46px;
-  --size-47: 47px;
-  --size-48: 48px;
-  --size-49: 49px;
-  --size-50: 50px;
-}
-// Responsive Size System Root
-@media screen and (max-width: $tab) {
-  :root {
-    --size-1: 0.81px;
-    --size-2: 1.62px;
-    --size-3: 2.43px;
-    --size-4: 3.24px;
-    --size-5: 4.05px;
-    --size-6: 4.86px;
-    --size-7: 5.67px;
-    --size-8: 6.48px;
-    --size-9: 7.29px;
-    --size-10: 8.1px;
-    --size-11: 8.91px;
-    --size-12: 9.72px;
-    --size-13: 10.53px;
-    --size-14: 11.34px;
-    --size-15: 12.15px;
-    --size-16: 12.96px;
-    --size-17: 13.77px;
-    --size-18: 14.58px;
-    --size-19: 15.39px;
-    --size-20: 16.2px;
-    --size-21: 17.01px;
-    --size-22: 17.82px;
-    --size-23: 18.63px;
-    --size-24: 19.44px;
-    --size-25: 20.25px;
-    --size-26: 21.06px;
-    --size-27: 21.87px;
-    --size-28: 22.68px;
-    --size-29: 23.49px;
-    --size-30: 24.3px;
-    --size-31: 25.11px;
-    --size-32: 25.92px;
-    --size-33: 26.73px;
-    --size-34: 27.54px;
-    --size-35: 28.35px;
-    --size-36: 29.16px;
-    --size-37: 29.97px;
-    --size-38: 30.78px;
-    --size-39: 31.59px;
-    --size-40: 32.4px;
-    --size-41: 33.21px;
-    --size-42: 34.02px;
-    --size-43: 34.83px;
-    --size-44: 35.64px;
-    --size-45: 36.45px;
-    --size-46: 37.26px;
-    --size-47: 38.07px;
-    --size-48: 38.88px;
-    --size-49: 39.69px;
-    --size-50: 40.5px;
-  }
-}
+// Enter The design values
+$container: 1320px;
+$gutter: var(--size-16);
+
+// Breakpoints
+$xxs: 374px;
+$sm: 424px;
+$mob: 576px;
+$tab: 767px;
+$lap: 1023px;
+$desk: 1440px;
+$big: 1600px;

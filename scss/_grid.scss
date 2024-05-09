@@ -1,0 +1,35 @@
+// Grid System
+.grid {
+  display: grid;
+}
+.pic {
+  place-items: center;
+}
+
+// Grid Template
+@for $i from 1 through 12 {
+  .grid-#{$i} {
+    grid-template-columns: repeat($i, 1fr);
+  }
+}
+
+// Grid Span
+@for $i from 1 through 12 {
+  .span-#{$i} {
+    grid-column: span $i;
+  }
+}
+
+// Grid Row Gap
+@for $i from 1 through 50 {
+  .row-gap-#{$i} {
+    grid-row-gap: var(--size-#{$i});
+  }
+}
+
+// Grid Column Gap
+@for $i from 1 through 50 {
+  .col-gap-#{$i} {
+    grid-column-gap: var(--size-#{$i});
+  }
+}
