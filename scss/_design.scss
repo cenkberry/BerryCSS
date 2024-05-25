@@ -26,6 +26,12 @@
 }
 
 // Box System
+.box {
+  flex: 1 0 0;
+  &-auto {
+    flex: 0 0 auto;
+  }
+}
 @for $i from 1 through 12 {
   .box-#{$i} {
     flex: 0 0 auto;
@@ -33,9 +39,9 @@
   }
 }
 
+
 // Media Queries 
 @media (min-width: $sm) {
-
   // Box
   @for $i from 1 through 12 {
     .box-sm-#{$i} {
@@ -75,7 +81,6 @@
 }
 
 @media (min-width: $mob) {
-
   // Box
   @for $i from 1 through 12 {
     .box-mob-#{$i} {
@@ -114,7 +119,6 @@
 }
 
 @media (min-width: $tab) {
-
   // Box
   @for $i from 1 through 12 {
     .box-tab-#{$i} {
@@ -196,7 +200,6 @@
 }
 
 @media (min-width: $desk) {
-
   // Box
   @for $i from 1 through 12 {
     .box-desk-#{$i} {
@@ -235,7 +238,6 @@
 }
 
 @media (min-width: $big) {
-
   // Box
   @for $i from 1 through 12 {
     .box-big-#{$i} {

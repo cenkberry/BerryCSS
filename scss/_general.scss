@@ -1,10 +1,75 @@
-
 // Display
 .db {
   display: block;
 }
+.dn {
+  display: none;
+}
 .dib {
   display: inline-block;
+}
+
+@media screen and (max-width: $xxs) {
+  .xxs-db {
+    display: block;
+  }
+  .xxs-dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $sm) {
+  .sm-db {
+    display: block;
+  }
+  .sm-dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $mob) {
+  .mob-db {
+    display: block;
+  }
+  .mob-dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $tab) {
+  .tab-db {
+    display: block;
+  }
+  .tab-dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $lap) {
+  .lap-db {
+    display: block;
+  }
+  .lap-dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $desk) {
+  .desk-db {
+    display: block;
+  }
+  .desk-dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $big) {
+  .big-db {
+    display: block;
+  }
+  .big-dn {
+    display: none;
+  }
 }
 
 // Positions
