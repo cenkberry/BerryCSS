@@ -7,7 +7,9 @@
   display: block;
   width: 100%;
   margin: 0 auto;
+  padding: 0 2px;
   @media screen and (min-width: $lap) {
+    padding: 0 $gutter;
     max-width: calc($container + 2 * $gutter);
   }
 }
@@ -15,13 +17,25 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -2px;
+  margin-left: -2px;
+  .box,
+  [class*="box-"] {
+    padding-right: 2px;
+    padding-left: 2px;
+  }
   > * {
     flex-shrink: 0;
     width: 100%;
   }
   @media screen and (min-width: $lap) {
-    margin-right: calc(-1 * $gutter);
-    margin-left: calc(-1 * $gutter);
+    margin-right: calc(-1 * $gutter/2);
+    margin-left: calc(-1 * $gutter/2);
+    .box,
+    [class*="box-"] {
+      padding-right: calc($gutter/2);
+      padding-left: calc($gutter/2);
+    }
   }
 }
 
@@ -29,6 +43,7 @@
 .box {
   flex: 1 0 0;
   &-auto {
+    width: unset;
     flex: 0 0 auto;
   }
 }
@@ -157,11 +172,6 @@
 }
 
 @media (min-width: $lap) {
-  .box,
-  [class*="box-"] {
-    padding-right: $gutter;
-    padding-left: $gutter;
-  }
   // Box
   @for $i from 1 through 12 {
     .box-lap-#{$i} {
