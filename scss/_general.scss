@@ -180,49 +180,49 @@
 }
 
 // Radius
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .rad-#{$i} {
     border-radius: var(--size-#{$i});
   }
 }
 
 // Padding
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .p-#{$i} {
     padding: var(--size-#{$i});
   }
 }
 
 // Padding Top
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .pt-#{$i} {
     padding-top: var(--size-#{$i});
   }
 }
 
 // Padding Left
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .pl-#{$i} {
     padding-left: var(--size-#{$i});
   }
 }
 
 // Padding Right
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .pr-#{$i} {
     padding-right: var(--size-#{$i});
   }
 }
 
 // Padding Bottom
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .pb-#{$i} {
     padding-bottom: var(--size-#{$i});
   }
 }
 
 // Padding X Axis
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .px-#{$i} {
     padding-left: var(--size-#{$i});
     padding-right: var(--size-#{$i});
@@ -230,7 +230,7 @@
 }
 
 // Padding Y Axis
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .py-#{$i} {
     padding-top: var(--size-#{$i});
     padding-bottom: var(--size-#{$i});
@@ -238,42 +238,42 @@
 }
 
 // Margin
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .m-#{$i} {
     margin: var(--size-#{$i});
   }
 }
 
 // Margin Top
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .mt-#{$i} {
     margin-top: var(--size-#{$i});
   }
 }
 
 // Margin Left
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .ml-#{$i} {
     margin-left: var(--size-#{$i});
   }
 }
 
 // Margin Right
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .mr-#{$i} {
     margin-right: var(--size-#{$i});
   }
 }
 
 // Margin Bottom
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .mb-#{$i} {
     margin-bottom: var(--size-#{$i});
   }
 }
 
 // Margin X Axis
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .mx-#{$i} {
     margin-left: var(--size-#{$i});
     margin-right: var(--size-#{$i});
@@ -281,7 +281,7 @@
 }
 
 // Margin Y Axis
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .my-#{$i} {
     margin-top: var(--size-#{$i});
     margin-bottom: var(--size-#{$i});

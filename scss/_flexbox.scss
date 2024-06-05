@@ -72,7 +72,7 @@
 }
 
 // Gap
-@for $i from 1 through 50 {
+@for $i from 0 through 50 {
   .gap-#{$i} {
     gap: var(--size-#{$i});
   }

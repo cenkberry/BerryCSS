@@ -143,11 +143,11 @@ video {
   display: inline-block;
 }
 a {
-  color: #000;
+  color: inherit;
   background: transparent;
   text-decoration: none;
   &:visited {
-    color: #000;
+    color: inherit;
   }
 }
 button,
@@ -195,13 +195,11 @@ input::-webkit-inner-spin-button {
 input {
   margin: 0;
   padding: 0;
-  height: 40px;
-  padding: 4px 8px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border: 1px solid #f3f3f3;
-  border-radius: 4px;
+  border: none;
+  border-radius: 0;
 }
 iframe {
   border: 0;
@@ -240,4 +238,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+main {
+  margin: 0;
+  padding: 0;
 }
