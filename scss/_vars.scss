@@ -1,16 +1,4 @@
-// Define Size System in Root
-:root {
-  @for $i from 1 through 100 {
-    --size-#{$i}: #{$i}px;
-  }
-  @media screen and (max-width: 768px) {
-    @for $i from 1 through 100 {
-      --size-#{$i}: #{0.70*$i}px;
-    }
-  }
-}
-
-// Root Colors
+// Root
 :root {
   --col-black: #000000;
   --col-white: #ffffff;
@@ -27,6 +15,17 @@
   --col-alt: #000;
   --col-bg: #000;
   --col-br: #000;
+
+  // Define Size System in Root
+  @for $i from 1 through 100 {
+    --size-#{$i}: #{0.75*$i}px;
+  }
+
+  @media screen and (min-width: 769px) {
+    @for $i from 1 through 100 {
+      --size-#{$i}: #{$i}px;
+    }
+  }
 }
 
 // Enter The design values
